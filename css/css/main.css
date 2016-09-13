@@ -1,0 +1,176 @@
+
+html {
+    position: relative;
+
+    /* This makes the footer not cover any content */
+    padding-bottom: 260px;
+}
+
+body {
+    background-image: url("/img/bg.png");
+
+    /* This makes the fixed navbar to push down the content below */
+    padding-top: 200px;
+    
+    
+}
+
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* Removes the margin of the p tags and overrides bootstrap */
+p {
+    margin: 0px;
+}
+
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("/img/bg.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Start of navbar */
+#navbar {
+    background: #2B2B2B;
+    height: 110px;
+}
+
+#logotype {
+    width: 80px;
+}
+
+#logotypeWrapper {
+    width: 180px;
+}
+
+#navbar table {
+    text-align: left;
+    height: 110px;
+    color: white;
+    font-size: 18px;
+}
+
+#logotypeTable {
+    margin: auto;
+}
+
+#navbar td {
+    vertical-align: middle;
+}
+
+#meetTeam {
+    cursor: pointer;
+}
+
+#contact {
+    text-align: right;
+    cursor: pointer;
+}
+/* End of navbar */
+
+
+/* Start of body */
+#contentWrapper {
+    color: white;
+    padding-left: 2%;
+}
+
+
+
+.profile-img {
+    width: 150px;
+    border: 1px solid #CCCCCC;
+}
+
+.table-wrapper {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.text-table {
+    margin-bottom: 20px;
+}
+
+.text-table td {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.table-row-top {
+    height: 65px;
+    background: #2B2B2B;
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 14px;
+    color: #DD6F00;
+}
+
+.profile-role {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+.table-row-divider {
+    height: 3px;
+}
+
+.table-row-bottom {
+    font-size: 11px;
+}
+
+.table-data-bottom {
+    padding: 10px;
+}
+
+.table-row-bottom td {
+    vertical-align: middle;
+    text-align: center;
+    height: 155px;
+    background: #2B2B2B;
+}
+
+
+
+/* End of body */
+
+
+
+footer {
+    height: 200px;
+    width: 100%;
+    background: #2B2B2B;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    margin-top: 100px;
+}
+
+
+.footer-table {
+    text-align: center;
+    height: 100%;
+    font-size: 12px;
+}
+
+.footer-table tr {
+    vertical-align: middle;
+}
