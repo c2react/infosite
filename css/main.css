@@ -11,7 +11,8 @@ body {
     /* This makes the fixed navbar to push down the content below */
     padding-top: 200px;
     
-    
+    background-image: url("/img/bg.png");
+
 }
 
 
